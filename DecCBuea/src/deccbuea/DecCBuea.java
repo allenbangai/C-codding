@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package deccbuea;
+
+/**
+ *
+ * @author DELL
+ */
+public class DecCBuea {
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        System.out.print("Difference of highest paid and lowest paid is: ");  
+        System.out.println(CompareNumber.Programmner(23.0, 0.0, 5.0));
+        System.out.println();
+        
+        System.out.print("Difference of highest paid and lowest paid is: ");  
+        System.out.println(CompareNumber.Programmner(147, 33, 526)); 
+        System.out.println();
+        
+        System.out.print("Difference of highest paid and lowest paid is: ");  
+        System.out.println(CompareNumber.Programmner(33, 72, 74)); 
+        System.out.println();
+    }
+}
